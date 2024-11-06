@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+.dashboard-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.temperature {
+    border-left: 5px solid #FF6F61;
+}
+
+.humidity {
+    border-left: 5px solid #6B5B93;
+}
+
+.pressure {
+    border-left: 5px solid #88B04B;
+}
+
+.light {
+    border-left: 5px solid #F7CAC9;
+}
+
+.cpu {
+    border-left: 5px solid #FFC300;
+}
+
+.memory {
+    border-left: 5px solid #FF5733;
+}
+
+.disk {
+    border-left: 5px solid #C70039;
+}
+
+.network {
+    border-left: 5px solid #900C3F;
+}
